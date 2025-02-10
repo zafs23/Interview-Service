@@ -4,27 +4,28 @@ import type {
   IFrontmatter,
 } from 'astro-boilerplate-components';
 import {
-  BlogGallery,
   NewerOlderPagination,
   PaginationHeader,
   Section,
 } from 'astro-boilerplate-components';
 
+import {BlogGalleryLocal} from '@/components/BlogGalleryLocal';
+
 import { CTA } from '@/partials/CTA';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
-import { sortByDate } from '@/utils/Posts';
+import { sortByFileName } from '@/utils/Services';
 
 type GetStaticPaths = {
   paginate: any;
 }; // Overrides `GetStaticPathsOptions` types from Astro
 
 export async function getStaticPaths({ paginate }: GetStaticPaths) {
-  const allPosts = await Astro.glob<IFrontmatter>('./*.md');
-  const sortedPosts = sortByDate(allPosts);
+  const allservices = await Astro.glob<IFrontmatter>('./*.md');
+  const sortedservices = sortByFileName(allservices);
 
-  // Return a paginated collection of paths for all posts
-  return paginate(sortedPosts, { pageSize: 6 });
+  // Return a paginated collection of paths for all services
+  return paginate(sortedservices, { pageSize: 6 });
 }
 
 interface Props {
@@ -42,13 +43,13 @@ const description =
 <Base head={{ title, description }}>
   <Section>
     <PaginationHeader
-      title='Random title here'
-      description='Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      title='Tech Interview Service'
+      description='Interview service for everyone.'
     />
   </Section>
 
   <Section>
-    <BlogGallery postList={page.data} />
+    <BlogGalleryLocal serviceList={page.data} />
   </Section>
 
   <Section>

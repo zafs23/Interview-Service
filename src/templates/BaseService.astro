@@ -1,11 +1,14 @@
 ---
-import type { IFrontmatter } from 'astro-boilerplate-components';
+import type { IFrontmatter as OriginalFrontmatter } from 'astro-boilerplate-components';
 
-import { BlogPost } from '@/partials/BlogPost';
+import { BlogService } from '@/partials/BlogService';
 import { CTA } from '@/partials/CTA';
 import Base from '@/templates/Base.astro';
 import { AppConfig } from '@/utils/AppConfig';
 
+export interface IFrontmatter extends Omit<OriginalFrontmatter, 'pubDate'> {
+  pubDate?: string; // Now optional
+}
 export interface Props {
   content: IFrontmatter;
 }
@@ -15,9 +18,8 @@ const title = `${content.title} - ${AppConfig.site_name}`;
 ---
 
 <Base head={{ title, description: content.description }}>
-  <BlogPost frontmatter={content}>
+  <BlogService frontmatter={content}>
     <slot></slot>
-  </BlogPost>
-
+  </BlogService>
   <CTA />
 </Base>
