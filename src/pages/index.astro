@@ -11,7 +11,7 @@ import { sortByFileName } from '@/utils/Services';
 
 const allservices = await Astro.glob<IFrontmatter>('./services/*.md');
 const sortedservices = sortByFileName(allservices);
-const lastThreeservices = sortedservices.slice(0, 3);
+const lastThreeservices = sortedservices.slice(0, 6);
 
 const { title } = AppConfig;
 const { description } = AppConfig;

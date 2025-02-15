@@ -10,13 +10,13 @@ const ProjectList = () => (
   <Section
     title={
       <>
-        Our <GradientText>Projects</GradientText>
+        Related <GradientText>Resources</GradientText>
       </>
     }
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
+        name="DSA Prep"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
@@ -35,7 +35,7 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Project 2"
+        name="System Design Prep"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."
@@ -50,7 +50,7 @@ const ProjectList = () => (
         }
       />
       <Project
-        name="Project 3"
+        name="P"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
         bibendum. Nunc non posuere consectetur, justo erat semper enim, non
         hendrerit dui odio id enim."

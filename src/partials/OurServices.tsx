@@ -17,7 +17,7 @@ const OurServices = (props: IOurServicesProps) => (
         </div>
 
         <div className="text-sm">
-          <a href="/Services/">View all Services →</a>
+          <a href="/services/">View all Services →</a>
         </div>
       </div>
     }

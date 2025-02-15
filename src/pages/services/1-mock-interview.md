@@ -1,21 +1,20 @@
 ---
 layout: '@/templates/BaseService.astro'
-title: 1st Service
-description: resume checking
+title: Mock Interview
+description: 1:1 Mock Practice with detailed feedback
 pubDate: null
-imgSrc: '/assets/images/image-post.jpeg'
+imgSrc: '/assets/images/image-post1.jpeg'
 imgAlt: 'Image post'
 ---
 
-Full service example at [this page](../sixth-post/).
+<h3>Increase your confidence with  mock interviews. From my past experiences, I have realized that not every mock interview resonates with real life interview experience. Free pramp interview gives little to no experience with zero effective feedback. 
 
-This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+An interview is about your attitude, your approach, and how you end in resolving a problem with a limited time constraint. You need to know how to communicate with your interviewer effectively. 
+At the same time, you need to assess your new role, the team and expectations as well.</h3> 
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+<h2>Practice all these with us! </h2>
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
-## Headings
+<!-- ## Headings
 
 # H1 For example
 
@@ -147,4 +146,4 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non m
 ```python
 s = "Python syntax highlighting"
 print s
-```
+``` -->

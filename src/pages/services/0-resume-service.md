@@ -1,18 +1,20 @@
 ---
 layout: '@/templates/BaseService.astro'
-title: Tech Interview Prep
-description: This service includes interview practice, 
+title: Resume Review
+description: Excel your resume to pass initial scanning
 pubDate: null
-imgSrc: '/assets/images/image-post.jpeg'
+imgSrc: '/assets/images/image-post2.jpeg'
 imgAlt: 'Image post'
 ---
 
-This is a paragraph. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+<h4>
+A tailored resume is essential because it directly aligns your skills and experiences with the specific requirements of a job, thereby increasing your chances of standing out to employers.<h4>
+ 
+With companies expecting candidates to showcase an extensive range of skills and experiences, creating a resume that truly stands out has become more challenging than ever. By customizing your resume for each application, you can highlight your qualifications which genuinely and accurately reflect your abilities. 
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
+Our thoughtful approach allows you to present your professional story in a clear, compelling manner that passes initial software scan and makes your visible to the hiring managers.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non molestias eos excepturi, inventore atque cupiditate. Sed voluptatem quas omnis culpa, et odit.
-
+<!-- 
 ## Headings
 
 # H1 For example
@@ -41,9 +43,9 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non m
 
 ## Emphasis
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
+Emphasis, aka italics, with _asterisks_ or _underscores_. -->
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
+<!-- Strong emphasis, aka bold, with **asterisks** or **underscores**.
 
 Strikethrough uses two tildes. ~~Scratch this.~~
 
@@ -145,4 +147,4 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero esse non m
 ```python
 s = "Python syntax highlighting"
 print s
-```
+``` -->
